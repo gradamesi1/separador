@@ -12,7 +12,7 @@ async function enviarCodigo() {
     return;
   }
 
-  const resposta = await fetch("https://script.google.com/macros/s/SEU_DEPLOY_URL/exec", {
+  const resposta = await fetch("https://script.google.com/macros/s/AKfycbx7KhkI_KPFlPVkVTbU5OqbXHYBtv7qX8QhGU2JkPBLEyXMqAJcmOCu8TUmabG6u1tR/exec", {
     method: "POST",
     body: JSON.stringify({ codigo, token }),
     headers: {
